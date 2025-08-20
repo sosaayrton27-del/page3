@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <nav class="navbar">
+  <div class="menu-toggle" id="menu-toggle">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+ <ul class="nav-list" id="nav-list">
+    <li><a href="index.html">Inicio</a> </li>
+    <li><a href="moda urbana.html">Moda Urbana</a></li>
+    <li><a href="musica y artistas.html">Musica y Artistas</a></li>
+    <li><a href="deportes y autos.html">Deportes y Autos</a></li>
+    <li><a href="minimalismo y abstracto.html">Minimalismo y Abstracto</a></li>
+    <li><a href="naturaleza y paisaje.html">Naturaleza y Paisaje</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+
+  </ul>
+</nav>
+
+  <header class="header">
+    <img src="logo (2).png" alt="Logo ALSTUDI" class="logo">
+  
+    <p>Productos</p>
+  </header>
+
+  <main class="grid-container">
+    <a href="moda urbana.html" class="categoria">
+      <img src="cuadrooscuroextasiswos.png" alt="Moda urbana">
+      <h2>Moda Urbana</h2>
+    </a>
+    <a href="musica y artistas.html" class="categoria">
+      <img src="img/cuadrooscuroextasiswos.png" alt="Musica y Artistas">
+      <h2>Musica y Artistas</h2>
+    </a>  
+    <a href="deportes y autos.html" class="categoria">
+      <img src="img/cuadrooscuroextasiswos.png" alt="deportes y autos">
+      <h2>Deportes y Autos</h2>
+    </a>
+      <a href="minimalismo y abstracto.html" class="categoria">
+      <img src="img/cuadrooscuroextasiswos.png" alt="minimalismo y abstracto">
+      <h2>Minimalismo y Abstracto</h2>
+    </a>
+       <a href="naturaleza y paisaje.html" class="categoria">
+      <img src="img/cuadrooscuroextasiswos.png" alt="naturaleza y paisaje">
+      <h2>Naturaleza y Paisaje</h2>
+    </a>
+  </main>
+  <script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const navList = document.getElementById('nav-list');
+
+  menuToggle.addEventListener('click', () => {
+    navList.classList.toggle('show');
+  });
+</script>
+<footer class="footer">
+  <p>&copy; 2025 ALStudi.</p>
+  <p>Instagram: @Alstudiart | WhatsApp: 2804953307</p>
+</footer>
+</body>
+</html>

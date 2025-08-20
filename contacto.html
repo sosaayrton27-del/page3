@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <nav class="navbar">
+  <div class="menu-toggle" id="menu-toggle">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+ <ul class="nav-list" id="nav-list">
+    <li><a href="index.html">Inicio</a> </li>
+    <li><a href="moda urbana.html">Moda Urbana</a></li>
+    <li><a href="musica y artistas.html">Musica y Artistas</a></li>
+    <li><a href="deportes y autos.html">Deportes y Autos</a></li>
+    <li><a href="minimalismo y abstracto.html">Minimalismo y Abstracto</a></li>
+    <li><a href="naturaleza y paisaje.html">Naturaleza y Paisaje</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+
+  </ul>
+   <header class="header">
+    <h1>CONTACTO</h1>
+    <p>Escribinos por cualquiera de nuestras redes para realizar tu compra!</p>
+  </header>
+
+  <main class="contacto-cards">
+    <div class="card-contacto">
+      <img class="icono-contacto" src="img/instagram.png" alt="Instagram">
+      <h2>Instagram</h2>
+      <p>Seguinos y escribinos por DM</p>
+      <a class="boton-contacto" href="https://instagram.com/alstudiart" target="_blank">Ir a Instagram</a>
+    </div>
+
+    <div class="card-contacto">
+      <img class="icono-contacto" src="img/whatsapp.png" alt="WhatsApp">
+      <h2>WhatsApp</h2>
+      <p>Si te queda mas comodo podes por WhatsApp</p>
+      <a class="boton-contacto" href="https://wa.me/5492804953307" target="_blank">Abrir WhatsApp</a>
+    </div>
+
+  </main>
+   <script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const navList = document.getElementById('nav-list');
+
+  menuToggle.addEventListener('click', () => {
+    navList.classList.toggle('show');
+  });
+</script>
+<footer class="footer">
+  <p>&copy; 2025 ALStudi.</p>
+  <p>Instagram: @Alstudiart | WhatsApp: 2804953307</p>
+</footer>
+</body>
+</html>
